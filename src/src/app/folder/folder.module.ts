@@ -10,8 +10,6 @@ import { FolderPage } from './folder.page';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 import { WheretoComponent } from './whereto/whereto.component';
 
-import { SearchComponent } from './search/search.component';
-
 @NgModule({
   imports: [
     CommonModule,
@@ -22,8 +20,7 @@ import { SearchComponent } from './search/search.component';
   declarations: [
     FolderPage,
     ConfirmpickupComponent,
-    WheretoComponent,
-   SearchComponent
+    WheretoComponent
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
